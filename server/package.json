@@ -1,0 +1,27 @@
+{
+  "name": "graphql-prisma-server",
+  "version": "1.0.0",
+  "description": "graphql-yoga-prisma based server side application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankcm/graphql-prisma.git"
+  },
+  "keywords": [
+    "graphql-yoga",
+    "prisma"
+  ],
+  "author": "Shashank Chikattimala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankcm/graphql-prisma/issues"
+  },
+  "homepage": "https://github.com/shashankcm/graphql-prisma#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.0",
+    "prisma-client-lib": "^1.34.0"
+  }
+}
