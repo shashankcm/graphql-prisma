@@ -10,7 +10,8 @@ const feed = async (root, args, context, info) => {
   const links = context.prisma.links({
     where,
     skip: args.skip,
-    first: args.first
+    first: args.first,
+    orderBy: args.orderBy
   });
   return links;
 };
