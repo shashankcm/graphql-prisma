@@ -5,6 +5,7 @@ const Query = require("./resolvers/Query");
 const Mutation = require("./resolvers/Mutations");
 const User = require("./resolvers/User");
 const Link = require("./resolvers/Link");
+const Vote = require("./resolvers/Vote");
 const Subscription = require("./resolvers/Subscription");
 
 /* async function main() {
@@ -27,7 +28,8 @@ const resolvers = {
   Mutation,
   Subscription,
   User,
-  Link
+  Link,
+  Vote
   /* Query: {
     link: (root, { id }, context, info) => {
       return links.find(u => u.id === id);
