@@ -4,7 +4,7 @@
   "description": "graphql-yoga-prisma based server side application",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
